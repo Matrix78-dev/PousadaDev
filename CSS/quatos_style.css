@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Source", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/*--Menu--*/
+.logo a{
+    text-decoration: none;
+}
+.nav ul{
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+}
+.container{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+}
+.menu{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5px 15px 0px;
+}
+.logo a, span{
+    font-size: 25px;
+    color: #222222;
+}
+.menu span{
+    color: #adc3ea;
+}
+.nav ul{
+    display: flex;
+}
+.nav a {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px;
+    color: #222222;    
+}
+.nav li{
+    margin: 0px 15px;
+}
+/*container-bg*/
+.container-bg{
+    background-image: url('/assets/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 250px;
+}
+/*Classe que para alinhar containers do site ao centro */
+.limitar-containers {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+/*--Quartos para solteiros*/  
+.quarto-solteiro{
+    margin: 70px 0px 40px 0px;
+    text-align: center;
+}
+.quarto-solteiro h2{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2em;
+    color: #5c5a5a;
+}
+.quarto-solteiro p {
+    font-size: 1.10em;
+    line-height: 1.4;
+    padding-bottom: 10px;
+    color: #5c5a5a;
+}
+.quarto-solteiro-fotos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.img{
+    height: auto;
+    width: 33%;
+}
+.img img{
+    width: 335px;
+    height: 210px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+/*Informções do quarto*/
+.title-lists{
+    text-align: center;
+    color: #5c5a5a;
+    font-size: 1.15em;
+}
+.container-lists{
+    display: flex;
+    justify-content: space-around;
+    color: #5c5a5a;
+    margin-top: -10px;
+    padding: 0px;
+}
+.lists li{
+    line-height: 1.4;
+    padding: 5px;
+}
+.lists ul{
+    padding: 0px;
+}
+/*Quartos para casais*/
+.quarto-casal{
+    margin: 70px 0px 40px 0px;
+    text-align: center;
+}
+.quarto-casal h2{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2em;
+    color: #5c5a5a;
+}
+.quarto-casal p {
+    font-size: 1.10em;
+    line-height: 1.4;
+    padding-bottom: 10px;
+    color: #5c5a5a;
+}
+.quarto-casal-fotos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+/*Quarto família*/
+.quarto-familia{
+    margin: 70px 0px 40px 0px;
+    text-align: center;
+}
+.quarto-familia h2{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2em;
+    color: #5c5a5a;
+}
+.quarto-familia p {
+    font-size: 1.10em;
+    line-height: 1.4;
+    padding-bottom: 10px;
+    color: #5c5a5a;
+}
+/*  Rodape  */
+.rodape-bg{
+    background-color: #49997c;
+    width: 100%;
+    margin-top: 20px;
+}
+.rodape-info{
+    display: flex;
+    justify-content: block;
+    flex-direction: row; 
+    border-bottom: 2px solid #838383;   
+}
+.rodape-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    width: 35%;
+    margin: 10px 20px 0px 0px; 
+}
+.rodape-content h4{
+    font-size: 1.2em;
+}
+
+.rodape-content a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+.rodape-content img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+.copyright{
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    color: #fff;
+}
+.copyright p{
+    margin: 0;
+    padding-top: 10px;
+}
