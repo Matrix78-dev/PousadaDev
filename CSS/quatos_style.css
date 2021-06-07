@@ -97,6 +97,24 @@ img{
     width: 100%;
     height: auto;
 }
+@media(max-width: 1060px){
+    .quarto-solteiro-fotos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img img{
+        width: 100%;
+        height: auto;
+    }
+    .img{
+        width: 90%;
+        margin: 5px 5px;
+    }
+    
+}
 /*Informções do quarto*/
 .title-lists{
     text-align: center;
@@ -139,6 +157,15 @@ img{
     justify-content: space-between;
     margin-bottom: 50px;
 }
+@media (max-width: 1060px) {
+    .quarto-casal-fotos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+    }
+}
 /*Quarto família*/
 .quarto-familia{
     margin: 70px 0px 40px 0px;
@@ -155,6 +182,22 @@ img{
     line-height: 1.4;
     padding-bottom: 10px;
     color: #5c5a5a;
+}
+@media(max-width: 790px) {
+    .container-lists{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+    .lists{
+        margin-left: 50px;
+    }
+    .title-lists h4{
+        text-align: start;
+        margin-left: 30px;
+    }
 }
 /*  Rodape  */
 .rodape-bg{
@@ -200,4 +243,25 @@ img{
 .copyright p{
     margin: 0;
     padding-top: 10px;
+}
+@media(max-width: 915px){
+    .rodape-info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width: 700px){
+    .rodape-info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+    .rodape-content{
+        margin: 5px 0px 10px 20px;
+    }
 }
